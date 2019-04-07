@@ -1,0 +1,15 @@
+{
+  "overrides": [{
+    "files": ["*.js", "*.ts", "*.tsx"],
+    "options": {
+      "semi": true,
+      "bracketSpacing": true,
+      "parser": "babylon",
+      "printWidth": 120,
+      "trailingComma": "all",
+      "excludeFiles": ["*.scss"],
+      "tabWidth": 2,
+      "singleQuote": true
+    }
+  }]
+}
